@@ -1,0 +1,25 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "a description web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qyq1381/learn_group.git"
+  },
+  "keywords": [
+    "q123aqwezasd"
+  ],
+  "author": "LH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qyq1381/learn_group/issues"
+  },
+  "homepage": "https://github.com/qyq1381/learn_group#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
