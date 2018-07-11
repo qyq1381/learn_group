@@ -7,7 +7,7 @@ const port = 3000;
 const app = express();
 
 app.get('/',function(req, res){
-    res.sendFile('/Users/lihonghan/git/learn_group/index.html')
+    res.sendFile('c:/Users/qyq13/git/learn_group/index.html')
 });
 app.listen(port, function(err) {
   if (err) {
