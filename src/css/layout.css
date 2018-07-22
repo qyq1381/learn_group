@@ -1,21 +1,7 @@
-.nav_left {
-    position: fixed;
-    right: 2%;
-    bottom: 15%;
-    font-size: medium;
-    border: solid;
-    border-width: 2px;
-    border-color: aqua;
+body {
+    background: #edeff0;
+    font-family: 'Hind', sans-serif;
 }
-
-.nav_item {
-    border: solid;
-    border-width: 1px;
-    border-color: aqua;
-}
-.leftTopImg{
-    position: absolute;
-    
-    height: 9%;
-    width: 9%;
+.bg-blue{
+    background-color:#0c79b8;
 }

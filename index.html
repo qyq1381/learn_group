@@ -1,103 +1,247 @@
 ﻿<!DOCTYPE html>
 
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./src/css/layout.css" />
-    <title>Learn_Group</title>
+    <link rel="stylesheet" href="./src/css/nav.css" />
+    <link rel="stylesheet" href="./src/css/section.css" />
+    <title>Learn_bootstrap</title>
 
 </head>
+
 <body>
     <header>
-    <div>
-        <img src="./src/pic/LearningGroup.gif" class="leftTopImg"/>
-    </div>
-    <div class = "container">
-        <nav class = "navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class = "navbar-brand" href = "#">Home</a>
-
-            <div class = "navbar-collapse" id = "navbarNav">
-                <ul class = "navbar-nav">
-                    <li class = "nav-item"> 
-                        <a class = "nav-link" href = "#">Purpose</a>
-                    </li>
-                    <li class = "nav-item">
-                        <a class = "nav-link" href = "#">Project</a>
-                    </li>
-                    <li class = "nav-item">
-                        <a class = "nav-link" href = "#">Members</a>
-                    </li>
-                    <li class = "nav-item">
-                        <a class = "nav-link" href = "#">About</a>
-                    </li>
-                </ul>
-              
+        <nav class="nav-style nav-appearance bg-blue">
+            <a class="nav-logo" href='./index.html'>
+                <img src="./src/pic/eg_tulip.jpg" alt="page Logo" />
+            </a>
+            <ul>
+                <li>
+                    <a href="#dropdown" class="dropdown-toggle" data-toggle="collapse">Dropdown
+                    </a>
+                </li>
+                <li>
+                    <a href='#'>About us</a>
+                </li>
+                <li>
+                    <a href='#'>FAQ</a>
+                </li>
+            </ul>
+            <div style="flex:1;">
             </div>
-
-            <form class = "form-inline">
-                <input type = "search" placeholder = "search" aria-label = "search">
-                <button type = "submit">Search</button>
-            </form>
-        </nav> 
-    </div>
-
-    </header>
-    <container>
-        <div class = "container-fluid">
+            <a class="nav-icon bg-blue" href="#">
+                <span class="fa fa-comments fa-lg" style="vertical-align: -.1rem"></span>
+                <span>Chat</span>
+            </a>
+            <a class="nav-icon bg-blue" href="Tel:1-234-567-8910" rel="nofollow">
+                <span class="fa fa-phone fa-lg" style="vertical-align: -.1rem"></span>
+                <span>(234)-567-8910</span>
+            </a>
+        </nav>
+        <div class="collapse" id="dropdown">
             <div class="row">
-                <div class="col-2">
-                    <nav class="nav_left">
-                    <ul class = "nav flex-column">
-                        <li class = "nav_item">
-                            <a class = "nav-link" href = "#">1</a>
-                        </li>
-                        <li class = "nav_item">
-                            <a class = "nav-link" href = "#">2</a>
-                        </li>
-                        <li class = "nav_item">
-                            <a class = "nav-link" href = "#">3</a>
-                        </li>
-                    </ul>
-                </nav>
-                <p>or if there is a strong neutral mech package printed (which it seems like there must be, right?),
-
-                        In Wild where Mechwarper already exists, perhaps, but in Standard I can expect them to stray well away from repeating the same mistakes.
-                        
-                        then Magnetic will give Priest the ability to make some HUGE Steamboats, and that's before starting in on the Divine Spirits/Inner Fires.
-                        
-                        Aye, people always thought Divine Spirit + Inner Fire was a bit of a dream combo that wasn't really feasible, but for quite some time now it has been shown as straight-up viable. There is the potential depending on cards delivered this set for Mech Priest to be a real thing. And, depending on how it works, that'll be really cool.</p>
-                </div>
-                
-             
-                <div class="col-8">
-                    <iframe width ="560" height="315" src="https://www.youtube.com/embed/TKZU68q_o9E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <div class="col-6">
+                    <div class="leftlist">
+                        <div class="listheader">
+                            a title
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="#">a city</a>
+                            </li>
+                            <li>
+                                <a href="#">a city</a>
+                            </li>
+                        </ul>
+                        <div class="listheader">
+                            Don't see your city? No problem,
+                            <a href='/how-it-works '>get your offer</a>
+                        </div>
                     </div>
+                </div>
                 <div class="col-2">
-                    <h1>Members</h1>
+                    <div class="rightlist">
+                        <div class="listheader">
+                            a title
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="#">a city</a>
+                            </li>
+                            <li>
+                                <a href="#">a city</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="rightlist">
+                        <div class="listheader">
+                            a title
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="#">a city</a>
+                            </li>
+                            <li>
+                                <a href="#">a city</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-    </container>
+    </header>
+
+    <div class="sectionone">
+        <h1>First, tell us about your junker.</h1>
+        <h4>Then, make cash in seconds.</h4>
+        <div>
+            <select>
+                <option class="hidden">Year</option>
+            </select>
+            <select>
+                <option>Make</option>
+            </select>
+        </div>
+        <div>
+            <button type="button">Continue</button>
+        </div>  
+    </div>
 
     <footer>
-        <hr />
-			<div class="Footer">
+            <section id="minor-section">
 
-				<h3>Company<span>logo</span></h3>
-
-				Company Name &copy; 2015
-                <br/><a href="#">Contact Us</a></p>
-
-
-			
-
-		</footer>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+                    <table id="table">
+                      <tr>
+                        <th>Trending Searches</th>
+                      </tr>
+                      <tr>
+                        <td><a href="">Who buys junk cars</a></td>
+                        <td><a href="">Junk car removal</a></td>
+                        <td><a href="">How to junk a car</a></td>
+                        <td><a href="">Selling junk cars</a></td>
+                        <td><a href="">Sell my junk car</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="">Sell car for scrap</a></td>
+                        <td><a href="">Buy my junk car</a></td>
+                        <td><a href="">Junk your car</a></td>
+                        <td><a href="">Junk my car for cash</a></td>
+                        <td><a href="">Sell junk car</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="">Sell car to junkyard</a></td>
+                        <td><a href="">Junk your car</a></td>
+                        <td><a href="">Junk my car</a></td>
+                        <td><a href="">Car salvage</a></td>
+                        <td><a href="">Junk car buyers</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="">Pick up junk cars</a></td>
+                        <td><a href="">Junk cars</a></td>
+                        <td><a href="">We buy junk cars</a></td>
+                        <td><a href="">Cash for junk cars</a></td>
+                        <td><a href="">Scrap my car</a></td>
+                      </tr>
+                      <tr>
+                        <th>Trending Cities</th>
+                      </tr>
+                      <tr>
+                        <td><a href="">San Jose</a></td>
+                        <td><a href="">Dallas</a></td>
+                        <td><a href="">Minneapolis</a></td>
+                        <td><a href="">Houston</a></td>
+                        <td><a href="">Los Angeles</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="">Fort Worth</a></td>
+                        <td><a href="">Seattle</a></td>
+                        <td><a href="">Columbus</a></td>
+                        <td><a href="">Cincinnati</a></td>
+                        <td><a href="">Las Vegas</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="">Chicago</a></td>
+                        <td><a href="">San Antonio</a></td>
+                        <td><a href="">Oakland</a></td>
+                        <td><a href="">Milwaukee</a></td>
+                        <td><a href="">Philadelphia</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="">Austin</a></td>
+                        <td><a href="">Jacksonville</a></td>
+                        <td><a href="">Richmond</a></td>
+                        <td><a href="">Saint Louis</a></td>
+                        <td><a href="">Sacramento</a></td>
+                      </tr>
+                      <tr>
+                        <th>Trending Vehicles</th>
+                      </tr>
+                      <tr>
+                        <td><a href="">Lexus RX</a></td>
+                        <td><a href="">Ford Focus</a></td>
+                        <td><a href="">Toyota Camry</a></td>
+                        <td><a href="">Dodge Grand Caravan</a></td>
+                        <td><a href="">Nissan Maxima</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="">Toyota Corolla</a></td>
+                        <td><a href="">Pontiac Grand Am</a></td>
+                        <td><a href="">Nissan Altima</a></td>
+                        <td><a href="">Ford Ranger</a></td>
+                        <td><a href="">Toyota Sienna</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="">Volkswagen Jetta</a></td>
+                        <td><a href="">Honda Civic</a></td>
+                        <td><a href="">Jeep Grand Cherokee</a></td>
+                        <td><a href="">Chevrolet Cavalier</a></td>
+                        <td><a href="">Ford Taurus</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="">Honda Accord</a></td>
+                        <td><a href="">Nissan Sentra</a></td>
+                        <td><a href="">Toyota RAV4</a></td>
+                        <td><a href="">Chevrolet Malibu</a></td>
+                        <td><a href="">Ford Explorer</a></td>
+                      </tr>
+                    </table>
+                  </section>
+                  <hr>
+                  <div class="footer">
+                    <div class="footer-logo">
+                      <img src="https://dgsecmg9973qw.cloudfront.net/junkmycar/Images/JMCLogoFooter.png" id="footer-img" alt="footer-logo">
+                      <span>© Junk my Car, LLC. 2018</span>
+                    </div>
+                    <div id="footer-link">
+                      <a href="" target="_blank"><span>Sell junk car</span></a>
+                      <!--经常用list-->
+                      <a href="" target="_blank"><span>About us</span></a>
+                      <!--大规模span？-->
+                      <a href="" target="_blank"><span>Junk it</span></a>
+                      <a href="" target="_blank"><span>FAQ</span></a>
+                      <a href="" target="_blank"><span>Terms</span></a>
+                      <a href="" target="_blank"><span>Privacy</span></a>
+                      <a href="" target="_blank"><span>Site map</span></a>
+                      <a href="" target="_blank"><span></span></a>
+                      <a href="" target="_blank"><span></span></a>
+                      <a href="" target="_blank"><span></span></a>
+                    </div>
+                  </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="./src/js/bootstrap.min.js"></script>
 </body>
+
 </html>

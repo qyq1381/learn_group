@@ -1,8 +1,14 @@
 node_modules/
 dist/
 .vscode/
+<<<<<<< HEAD
 .babelrc/
 *.json/
 buildScripts/
 
 
+=======
+.babelrc
+*.json
+buildScripts/
+>>>>>>> 12288a2764d99c894eda33aba17f844789d62957
