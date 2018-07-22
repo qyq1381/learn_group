@@ -1,6 +1,9 @@
 node_modules/
 dist/
 .vscode/
+LICENSE/
+package-lock.json/
+package.json/
 <<<<<<< HEAD
 .babelrc/
 *.json/
