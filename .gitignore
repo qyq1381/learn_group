@@ -1,6 +1,17 @@
 node_modules/
 dist/
 .vscode/
+LICENSE/
+package-lock.json/
+package.json/
+<<<<<<< HEAD
+.babelrc/
+*.json/
+buildScripts/
+
+
+=======
 .babelrc
 *.json
 buildScripts/
+>>>>>>> 12288a2764d99c894eda33aba17f844789d62957
