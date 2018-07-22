@@ -1,6 +1,6 @@
 {
   "name": "learn_group",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "a description webpage for our learn group",
   "main": "index.js",
   "scripts": {
