@@ -23,4 +23,7 @@ a:active {
    width:0;
    height:0;
    transition:1s;
+    <div class="right_bottom_icon" style="border-radius: 50%; background-image:url(./src/pic/Pen.jpg)">
+        <a href="#"><img id="RB_img" src="./src/pic/HuaJi.jpg" /></a>
+    </div>
 }
