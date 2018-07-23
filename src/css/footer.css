@@ -21,9 +21,8 @@ table {
     display:inline-block;
     margin: 15px auto -15px auto;
     padding: 10px 15px 10px 15px;
-    float:right;
   }
-  span {
+  footer span {
     padding: 0px 10px 0px 10px;
   }
   
