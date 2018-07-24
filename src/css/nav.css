@@ -31,21 +31,21 @@ a.nav-icon:hover {
     height:100%;
 }
 
-nav>ul{
+.nav>ul{
     margin: 0 0 0 -1rem;
     font-size: 75%;
 }
-nav>ul>li{
+.nav>ul>li{
     display: inline-block;
     margin: 0rem -.2rem 0rem -.2rem;
     padding: 0;
 }
-nav>ul>li>a{
+.nav>ul>li>a{
     color: white;
     background-color: #0c79b8;
     padding: 1.85rem 1rem 1.9rem 1rem;
 }
-nav>ul> li > a:hover{
+.nav>ul> li > a:hover{
     text-decoration: none;
     color: white;
     background-color: #0b6da5;
