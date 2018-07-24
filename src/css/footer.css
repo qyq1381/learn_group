@@ -1,7 +1,6 @@
 table {
     width: 100%;
     padding: 2% 5% 0 5%;
-    margin: 2% 5% 0 5%;
   }
   th,
   td {
@@ -9,18 +8,30 @@ table {
     text-align: start;
   }
   .footer {
-    display: grid;
-    grid-template: "a a";
-    text-align:center;
-  
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+  }
+  #footer-link>div>a{
+    padding: 1.85rem 1rem 1.9rem 1rem;
+    color: #AFADAD;
+  }
+ #footer-link>div>a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #AFADAD;
   }
   .footer-logo{
     float:left;
   }
+  #minor-section{
+    padding: 100px;
+  }
   #footer-link {
-    display:inline-block;
-    margin: 15px auto -15px auto;
-    padding: 10px 15px 10px 15px;
+    display:flex;
+    float:right;
+  }
+  #footer-link>div{
   }
   footer span {
     padding: 0px 10px 0px 10px;
