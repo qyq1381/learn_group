@@ -22,9 +22,8 @@ body {
     border-radius: 50%;
 }
 
-a:active {
+.right_bottom_icon a:active {
     width: 0;
     height: 0;
-    transition: 1s;
-    
+    transition: 1s;  
 }
