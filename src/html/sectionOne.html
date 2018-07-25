@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/layout.css" />
+    <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="../css/section.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/section2.css" />
+    <title>Learn_bootstrap</title>
+
+
+</head>
+
+<body>
+    <div class="sectionone" id="iframe1">
+        <h1>First, tell us about your junker.</h1>
+        <h4>Then, make cash in seconds.</h4>
+        <div class="form-style">
+            <select class="smselectbox">
+                <option>Year</option>
+            </select>
+            <select class="lgselectbox">
+                <option>Make</option>
+            </select>
+            <select class="lgselectbox">
+                <option>Make</option>
+            </select>
+            <select class="lgselectbox">
+                <option>Make</option>
+            </select>
+            <select class="smselectbox">
+                <option>Make</option>
+            </select>
+        </div>
+        <div>
+            <button type="button" class="btn btn-warning btn-lg">Continue</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="./src/js/bootstrap.min.js"></script>
+    
+        <script type="application/javascript">
+
+function resizeIFrameToFitContent( iFrame ) {
+
+    iFrame.width  = iFrame.contentWindow.document.body.scrollWidth;
+    iFrame.height = iFrame.contentWindow.document.body.scrollHeight;
+}
+
+window.addEventListener('DOMContentLoaded', function(e) {
+
+    var iFrame = document.getElementById( 'iFrame1' );
+    resizeIFrameToFitContent( iFrame );
+
+    // or, to resize all iframes:
+    var iframes = document.querySelectorAll("iframe");
+    for( var i = 0; i < iframes.length; i++) {
+        resizeIFrameToFitContent( iframes[i] );
+    }
+} );
+
+</script>
+
+
+
+</body>
+
+
+</html>
