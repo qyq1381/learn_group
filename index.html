@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./src/css/layout.css" />
+    <link rel="stylesheet" href="./src/css/nav.css" />
+    <link rel="stylesheet" href="./src/css/section.css" />
+    <link rel="stylesheet" href="./src/css/footer.css" />
+    <link rel="stylesheet" href="./src/css/section2.css" />
+    <link rel="import" href="header.html" id="main-header" />
+    <link rel="import" href="body.html" id="main-body" />
+    <link rel="import" href="footer.html" id="main-footer" />
+    <link rel="import" href="script.html" id="main-script" />
+    <title>Learn_bootstrap</title>
+</head>
+
+<body>
+
+    <!--Import Header-->
+    <script>
+        var link_head = document.querySelector('#main-header');
+        var content_head = link_head.import.querySelector('*');
+        document.body.appendChild(document.importNode(content_head, true));
+    </script>
+
+    <!--Import Body-->
+    <script>
+
+        var link_body = document.querySelector('#main-body');
+        var content_body = link_body.import.querySelector('*');
+        document.body.appendChild(document.importNode(content_body, true));
+    </script>
+
+    <!--Import Footer-->
+    <script>
+        var link_foot = document.querySelector('#main-footer');
+        var content_foot = link_foot.import.querySelector('*');
+        document.body.appendChild(document.importNode(content_foot, true));
+    </script>
+
+    <!--Import Script(This part may be not needed!!!)-->
+    <script>
+        var link_script = document.querySelector('#main-script');
+        var content_script = link_script.import.querySelector('*');
+        document.body.appendChild(document.importNode(content_script, true));
+    </script>
+
+
+    <div class="right_bottom_icon" style="background-image:url(./src/pic/Pen.jpg);">
+        <a href="#">
+            <img id="RB_img" src="./src/pic/HuaJi.jpg" />
+        </a>
+    </div>
+
+</body>
+
+
+    </html>
