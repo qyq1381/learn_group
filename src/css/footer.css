@@ -1,6 +1,10 @@
 table {
     width: 100%;
     padding: 2% 5% 0 5%;
+<<<<<<< HEAD
+=======
+    margin: 2% 5% 0 5%;
+>>>>>>> parent of a5bd551... del
   }
   th,
   td {
@@ -8,6 +12,7 @@ table {
     text-align: start;
   }
   .footer {
+<<<<<<< HEAD
     display: flex;
     align-items:center;
     justify-content: space-between;
@@ -20,10 +25,17 @@ table {
     text-decoration: none;
     color: white;
     background-color: #AFADAD;
+=======
+    display: grid;
+    grid-template: "a a";
+    text-align:center;
+  
+>>>>>>> parent of a5bd551... del
   }
   .footer-logo{
     float:left;
   }
+<<<<<<< HEAD
   #minor-section{
     padding: 50px;
   }
@@ -34,6 +46,15 @@ table {
   #footer-link>div{
   }
   footer span {
+=======
+  #footer-link {
+    display:inline-block;
+    margin: 15px auto -15px auto;
+    padding: 10px 15px 10px 15px;
+    float:right;
+  }
+  span {
+>>>>>>> parent of a5bd551... del
     padding: 0px 10px 0px 10px;
   }
   
