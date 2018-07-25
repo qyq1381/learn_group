@@ -5,6 +5,10 @@ table {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    margin: 2% 5% 0 5%;
+>>>>>>> parent of a5bd551... del
 =======
     margin: 2% 5% 0 5%;
 >>>>>>> parent of a5bd551... del
@@ -28,6 +32,7 @@ table {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     display: flex;
     align-items:center;
     justify-content: space-between;
@@ -47,6 +52,8 @@ table {
 >>>>>>> parent of a5bd551... del
 =======
 >>>>>>> parent of a5bd551... del
+=======
+>>>>>>> parent of a5bd551... del
     display: grid;
     grid-template: "a a";
     text-align:center;
@@ -54,6 +61,9 @@ table {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of a5bd551... del
+=======
 >>>>>>> parent of a5bd551... del
 =======
 >>>>>>> parent of a5bd551... del
@@ -65,6 +75,7 @@ table {
   .footer-logo{
     float:left;
   }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86,6 +97,8 @@ table {
 >>>>>>> parent of a5bd551... del
 =======
 >>>>>>> parent of a5bd551... del
+=======
+>>>>>>> parent of a5bd551... del
   #footer-link {
     display:inline-block;
     margin: 15px auto -15px auto;
@@ -96,6 +109,9 @@ table {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of a5bd551... del
+=======
 >>>>>>> parent of a5bd551... del
 =======
 >>>>>>> parent of a5bd551... del
