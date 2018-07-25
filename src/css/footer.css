@@ -4,6 +4,10 @@ table {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    margin: 2% 5% 0 5%;
+>>>>>>> parent of a5bd551... del
 =======
     margin: 2% 5% 0 5%;
 >>>>>>> parent of a5bd551... del
@@ -20,6 +24,7 @@ table {
     text-align: start;
   }
   .footer {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -40,12 +45,17 @@ table {
 >>>>>>> parent of a5bd551... del
 =======
 >>>>>>> parent of a5bd551... del
+=======
+>>>>>>> parent of a5bd551... del
     display: grid;
     grid-template: "a a";
     text-align:center;
   
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of a5bd551... del
+=======
 >>>>>>> parent of a5bd551... del
 =======
 >>>>>>> parent of a5bd551... del
@@ -55,6 +65,7 @@ table {
   .footer-logo{
     float:left;
   }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -73,6 +84,8 @@ table {
 >>>>>>> parent of a5bd551... del
 =======
 >>>>>>> parent of a5bd551... del
+=======
+>>>>>>> parent of a5bd551... del
   #footer-link {
     display:inline-block;
     margin: 15px auto -15px auto;
@@ -82,6 +95,9 @@ table {
   span {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of a5bd551... del
+=======
 >>>>>>> parent of a5bd551... del
 =======
 >>>>>>> parent of a5bd551... del
