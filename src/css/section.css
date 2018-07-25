@@ -28,7 +28,10 @@
     margin: 0 3px;
     width: 15%;
 }
-button{
+.sectionone button{
     display: block;
     margin: 0 0 40px 0;
+}
+.display-none{
+    display: none;
 }
