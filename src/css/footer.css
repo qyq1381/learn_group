@@ -1,170 +1,61 @@
 table {
     width: 100%;
     padding: 2% 5% 0 5%;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    margin: 2% 5% 0 5%;
->>>>>>> parent of a5bd551... del
-=======
-    margin: 2% 5% 0 5%;
->>>>>>> parent of a5bd551... del
-=======
-    margin: 2% 5% 0 5%;
->>>>>>> parent of a5bd551... del
-=======
-    margin: 2% 5% 0 5%;
->>>>>>> parent of a5bd551... del
-=======
-    margin: 2% 5% 0 5%;
->>>>>>> parent of a5bd551... del
-=======
->>>>>>> parent of 37ccd3a... Merge branch 'master' of https://github.com/qyq1381/learn_group
-=======
-    margin: 2% 5% 0 5%;
->>>>>>> parent of a5bd551... del
-  }
-  th,
-  td {
+}
+
+th,
+td {
     padding: 5px;
     text-align: start;
-  }
-  .footer {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 37ccd3a... Merge branch 'master' of https://github.com/qyq1381/learn_group
+}
+
+.footer {
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: space-between;
-  }
-  #footer-link>div>a{
+}
+
+#footer-link > div > a {
     padding: 1.85rem 1rem 1.9rem 1rem;
     color: #AFADAD;
-  }
- #footer-link>div>a:hover{
-    text-decoration: none;
-    color: white;
-    background-color: #AFADAD;
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of a5bd551... del
-=======
->>>>>>> parent of a5bd551... del
-=======
->>>>>>> parent of a5bd551... del
-=======
->>>>>>> parent of a5bd551... del
-=======
->>>>>>> parent of a5bd551... del
-    display: grid;
-    grid-template: "a a";
-    text-align:center;
-  
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of a5bd551... del
-=======
->>>>>>> parent of a5bd551... del
-=======
->>>>>>> parent of a5bd551... del
-=======
->>>>>>> parent of a5bd551... del
-=======
->>>>>>> parent of a5bd551... del
-=======
->>>>>>> parent of 37ccd3a... Merge branch 'master' of https://github.com/qyq1381/learn_group
-=======
->>>>>>> parent of a5bd551... del
-  }
-  .footer-logo{
-    float:left;
-  }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 37ccd3a... Merge branch 'master' of https://github.com/qyq1381/learn_group
-  #minor-section{
+}
+
+    #footer-link > div > a:hover {
+        text-decoration: none;
+        color: white;
+        background-color: #AFADAD;
+    }
+
+.footer-logo {
+    float: left;
+}
+
+#minor-section {
     padding: 50px;
-  }
-  #footer-link {
-    display:flex;
-    float:right;
-  }
-  #footer-link>div{
-  }
-  footer span {
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of a5bd551... del
-=======
->>>>>>> parent of a5bd551... del
-=======
->>>>>>> parent of a5bd551... del
-=======
->>>>>>> parent of a5bd551... del
-=======
->>>>>>> parent of a5bd551... del
-  #footer-link {
-    display:inline-block;
-    margin: 15px auto -15px auto;
-    padding: 10px 15px 10px 15px;
-    float:right;
-  }
-  span {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of a5bd551... del
-=======
->>>>>>> parent of a5bd551... del
-=======
->>>>>>> parent of a5bd551... del
-=======
->>>>>>> parent of a5bd551... del
-=======
->>>>>>> parent of a5bd551... del
-=======
->>>>>>> parent of 37ccd3a... Merge branch 'master' of https://github.com/qyq1381/learn_group
-=======
->>>>>>> parent of a5bd551... del
+}
+
+#footer-link {
+    display: flex;
+    float: right;
+}
+
+footer span {
     padding: 0px 10px 0px 10px;
-  }
-  
-  header a:visited {
+}
+
+header a:visited {
     color: #f3f2f3;
-  }
-  header a:link,
-  footer a:link {
+}
+
+footer a:link {
     text-decoration: none;
-  }
-  footer a:visited {
+}
+
+footer a:visited {
     text-decoration: none;
     color: #a4a4a5;
-  }
-  header a:hover,
-  footer a:hover {
+}
+
+footer a:hover {
     text-decoration: underline;
-  }
+}
