@@ -4,26 +4,37 @@ body {
 }
 .bg-blue {
 <<<<<<< HEAD
+<<<<<<< HEAD
     background-color: #0c79b8;
 }
 
 .right_bottom_icon {
     position: fixed;
 =======
+=======
+>>>>>>> parent of a5bd551... del
     background-color: #0875bb;
 }
 .right_bottom_icon {
     position: absolute;
+<<<<<<< HEAD
+>>>>>>> parent of a5bd551... del
+=======
 >>>>>>> parent of a5bd551... del
     right: 20px;
     bottom: 20px;
     height: 50px;
     width: 50px;
 <<<<<<< HEAD
+<<<<<<< HEAD
     border-radius: 50%;
     
 }
 
+=======
+   
+}
+>>>>>>> parent of a5bd551... del
 =======
    
 }
@@ -36,12 +47,15 @@ body {
 
 a:active {
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 0;
     height: 0;
     transition: 1s;
     
 }
 =======
+=======
+>>>>>>> parent of a5bd551... del
    width:0;
    height:0;
    transition:1s;
@@ -49,4 +63,7 @@ a:active {
         <a href="#"><img id="RB_img" src="./src/pic/HuaJi.jpg" /></a>
     </div>
 }
+<<<<<<< HEAD
+>>>>>>> parent of a5bd551... del
+=======
 >>>>>>> parent of a5bd551... del
