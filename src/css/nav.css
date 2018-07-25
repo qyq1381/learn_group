@@ -30,6 +30,7 @@ a.nav-icon:hover {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 4rem;
 =======
     height: 5rem;
@@ -46,6 +47,9 @@ a.nav-icon:hover {
 =======
     height: 5rem;
 >>>>>>> parent of a5bd551... del
+=======
+    height: 4rem;
+>>>>>>> parent of 37ccd3a... Merge branch 'master' of https://github.com/qyq1381/learn_group
 }
 
 nav>ul{
@@ -72,6 +76,9 @@ nav>ul> li > a:hover{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 37ccd3a... Merge branch 'master' of https://github.com/qyq1381/learn_group
 #drop-part{
     background-color: gray;
     color: white;
@@ -83,6 +90,7 @@ nav>ul> li > a:hover{
 .rightlist{
     padding: 15px 0 30px 5%;
     margin: 0 -15px;
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of a5bd551... del
@@ -123,6 +131,8 @@ nav>ul> li > a:hover{
 >>>>>>> parent of a5bd551... del
 =======
 >>>>>>> parent of a5bd551... del
+=======
+>>>>>>> parent of 37ccd3a... Merge branch 'master' of https://github.com/qyq1381/learn_group
 }
 .listheader{
     padding: 0 0 0 40px;
@@ -132,6 +142,9 @@ nav>ul> li > a:hover{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 37ccd3a... Merge branch 'master' of https://github.com/qyq1381/learn_group
 #drop-part{
     position: absolute;
     width:100%;
@@ -144,6 +157,7 @@ nav>ul> li > a:hover{
 }
 #drop-part li a:hover{
     text-decoration: none;
+<<<<<<< HEAD
 =======
 #dropdown li{
     list-style-type:none;
@@ -164,4 +178,6 @@ nav>ul> li > a:hover{
 #dropdown li{
     list-style-type:none;
 >>>>>>> parent of a5bd551... del
+=======
+>>>>>>> parent of 37ccd3a... Merge branch 'master' of https://github.com/qyq1381/learn_group
 }
