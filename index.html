@@ -1,5 +1,4 @@
 ﻿<!DOCTYPE html>
-
 <html lang="en">
 
 <head>
@@ -13,15 +12,16 @@
     <link rel="stylesheet" href="./src/css/section.css" />
     <link rel="stylesheet" href="./src/css/footer.css" />
     <link rel="stylesheet" href="./src/css/section2.css" />
+    
+      
     <title>Learn_bootstrap</title>
-
 </head>
 
 <body>
-    <header>
+    <header> 
         <nav class="nav-style nav nav-appearance bg-blue">
             <a class="nav-logo" href='./index.html'>
-                <img src="https://dgsecmg9973qw.cloudfront.net/junkmycar/Images/JMCLogo.png"  class="nav-brand" alt="page Logo" />
+                <img src="https://dgsecmg9973qw.cloudfront.net/junkmycar/Images/JMCLogo.png" alt="page Logo" />
             </a>
             <ul>
                 <li>
@@ -81,7 +81,7 @@
                                 <a href="#">a city</a>
                             </li>
                         </ul>
-
+    
                     </div>
                 </div>
                 <div class="col-4">
@@ -101,7 +101,10 @@
                 </div>
             </div>
         </div>
+    
     </header>
+    
+    
 
     <div class="sectionone">
         <h1>First, tell us about your junker.</h1>
@@ -130,7 +133,6 @@
     <section id="main-section">
         <br>
         <h1>There is nothing to it.</h1>
-        <!--h1大小不一样-->
 
         <div id="intro">
             <div id="first">
@@ -283,14 +285,25 @@
             </div>
         </div>
     </footer>
+    <div class="right_bottom_icon" style="background-image:url(./src/pic/Pen.jpg);">
+        <a href="#"><img id="RB_img" src="./src/pic/HuaJi.jpg" /></a>
+    </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
             crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
             crossorigin="anonymous"></script>
     <script src="./src/js/bootstrap.min.js"></script>
-    <div class="right_bottom_icon" style="background-image:url(./src/pic/Pen.jpg);">
-        <a href="#"><img id="RB_img" src="./src/pic/HuaJi.jpg" /></a>
-    </div>
+   <script>
+   function supportsImports() {
+    return 'import' in document.createElement('link');
+  }
+  
+  if (supportsImports()) {
+   console.log("haha")
+  } else {
+    // Use other libraries/require systems to load files.
+  }</script>
+   
     
 </body>
 
