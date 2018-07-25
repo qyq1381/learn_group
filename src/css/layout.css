@@ -9,6 +9,7 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 37ccd3a... Merge branch 'master' of https://github.com/qyq1381/learn_group
     background-color: #0c79b8;
@@ -26,10 +27,13 @@ body {
 >>>>>>> parent of a5bd551... del
 =======
 >>>>>>> parent of a5bd551... del
+=======
+>>>>>>> parent of a5bd551... del
     background-color: #0875bb;
 }
 .right_bottom_icon {
     position: absolute;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -45,10 +49,13 @@ body {
 >>>>>>> parent of a5bd551... del
 =======
 >>>>>>> parent of 37ccd3a... Merge branch 'master' of https://github.com/qyq1381/learn_group
+=======
+>>>>>>> parent of a5bd551... del
     right: 20px;
     bottom: 20px;
     height: 50px;
     width: 50px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -84,6 +91,10 @@ body {
 >>>>>>> parent of a5bd551... del
 =======
 >>>>>>> parent of 37ccd3a... Merge branch 'master' of https://github.com/qyq1381/learn_group
+=======
+   
+}
+>>>>>>> parent of a5bd551... del
 #RB_img {
     height: inherit;
     width: inherit;
@@ -91,6 +102,7 @@ body {
 }
 
 a:active {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -114,6 +126,8 @@ a:active {
 >>>>>>> parent of a5bd551... del
 =======
 >>>>>>> parent of a5bd551... del
+=======
+>>>>>>> parent of a5bd551... del
    width:0;
    height:0;
    transition:1s;
@@ -121,6 +135,7 @@ a:active {
         <a href="#"><img id="RB_img" src="./src/pic/HuaJi.jpg" /></a>
     </div>
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -137,3 +152,5 @@ a:active {
 =======
 }
 >>>>>>> parent of 37ccd3a... Merge branch 'master' of https://github.com/qyq1381/learn_group
+=======
+>>>>>>> parent of a5bd551... del
