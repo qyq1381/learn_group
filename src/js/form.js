@@ -32,8 +32,6 @@ window.onload = function () {
     
     create_year_options(year, 2020, 2018);
     create_make_options(make1, yearObj);
-    //create_make_options(make2, AstonObj);
-    //create_make_options(make3, TrimObj);
     make1.disabled = true;
     make2.disabled = true;
     make3.disabled = true;
@@ -48,20 +46,19 @@ window.onload = function () {
     }
     make1.onchange = function(){
         if(make1.value === "Aston Martin"){
-            make2.length=0;
+            make2.length=1;
             make2.disabled = false;
             create_make_options(make2, AstonObj);
         }
         else if(make1.value=== "Bentley"){
             make2.disabled = false;
-            make2.length=0;
-              create_make_options(make2, BentleyObj);//暂时无法切换到第二种车，原因白天再查查。。
+            make2.length=1;
+              create_make_options(make2, BentleyObj);
           }
-    // create_make_options(make2, AstonObj);
 };
 
 make2.onchange = function () {
-    make3.length=0;
+    make3.length=1;
     make3.disabled = false;
     create_make_options(make3, TrimObj);
 }
