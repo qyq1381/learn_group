@@ -31,7 +31,7 @@ window.onload = function () {
 
     
     create_year_options(year, 2020, 2018);
-    create_make_options(make1, yearObj);
+    //create_make_options(make1, yearObj);
     make1.disabled = true;
     make2.disabled = true;
     make3.disabled = true;
@@ -41,12 +41,17 @@ window.onload = function () {
         check("zipcode");
     }
     year.onchange = function () {
-        
+
+        make1.length = 1;
+        make2.length = 1;
+        make3.length = 1;
         make1.disabled = false;
+        create_make_options(make1, yearObj);
     }
     make1.onchange = function(){
         if(make1.value === "Aston Martin"){
-            make2.length=1;
+            make2.length = 1;
+            make3.length = 1;
             make2.disabled = false;
             create_make_options(make2, AstonObj);
         }
@@ -58,7 +63,7 @@ window.onload = function () {
 };
 
 make2.onchange = function () {
-    make3.length=1;
+    make3.length = 1;
     make3.disabled = false;
     create_make_options(make3, TrimObj);
 }
