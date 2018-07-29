@@ -41,8 +41,12 @@ window.onload = function () {
         check("zipcode");
     }
     year.onchange = function () {
-        
+        make1.value="Make";
+        make2.value="Model";
+        make3.value="Trim";
         make1.disabled = false;
+        make2.disabled = true;
+        make3.disabled = true;
     }
     make1.onchange = function(){
         if(make1.value === "Aston Martin"){
