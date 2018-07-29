@@ -46,7 +46,10 @@ header a:visited {
 footer a:link {
   text-decoration: none;
 }
+
 footer a:visited {
+#minor-section a:visited,footer a:visited {
+
   text-decoration: none;
   color: #a4a4a5;
 }
