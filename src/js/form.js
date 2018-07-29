@@ -56,9 +56,10 @@ window.onload = function () {
             create_make_options(make2, AstonObj);
         }
         else if(make1.value=== "Bentley"){
+            make2.length = 1;
+            make3.length = 1;
             make2.disabled = false;
-            make2.length=1;
-              create_make_options(make2, BentleyObj);
+            create_make_options(make2, BentleyObj);
           }
 };
 
