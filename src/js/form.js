@@ -4,6 +4,7 @@ window.onload = function () {
     let make1 = document.getElementById("makeId1");
     let make2 = document.getElementById("makeId2");
     let make3 = document.getElementById("makeId3");
+    let submitbutton = document.getElementById("submitbutton");
 
     let yearObj = {
         0: "Aston Martin",
@@ -36,7 +37,9 @@ window.onload = function () {
     make2.disabled = true;
     make3.disabled = true;
 
-
+    submitbutton.onclick=function(){
+        submitvalue(year.value,make1.value,make2.value,make3.value,zip.value);
+    }
     zip.oninput = function () {
         check("zipcode");
     }
@@ -110,3 +113,24 @@ function create_make_options(make, makeObj) {
 
 };
 
+//submit part
+function getXMLHttpRequest() {
+    var xmlhttp;
+    xmlhttp = new XMLHttpRequest();
+    return xmlhttp;
+}
+function submitvalue(year_v,make1_v,make2_v,make3_v,zip_v) {
+    var xmlhttp = getXMLHttpRequest();
+    var data = {
+        "year": year_v,
+        "make1": make1_v,
+        "make2": make2_v,
+        "make3": make3_v,
+        "zip": zip_v,
+    }
+    var stringData = JSON.stringify(data);
+    xmlhttp.open("POST", "path", true);
+    xmlhttp.setRequestHeader("Content-type", "application/json;charset=UTF-8");
+    alert(stringData);
+    xmlhttp.send(stringData);
+}
