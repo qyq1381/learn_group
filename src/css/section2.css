@@ -12,8 +12,7 @@
   padding: 2% 5% 0 5%;
   grid-gap: 40px 70px;
 }
-h1,
-h3 {
-display: flex;
-justify-content: center;
+#main-section h1,h4 {
+  display: flex;
+  justify-content: center;
 }

@@ -39,6 +39,11 @@ window.onload = function () {
 
     submitbutton.onclick=function(){
         submitvalue(year.value,make1.value,make2.value,make3.value,zip.value);
+        let section1_box = document.getElementById("sectionone_box");
+        section1_box.style.setProperty("-webkit-transform","translateX(-50%)");  
+        section1_box.style.setProperty("transform","translateX(-50%)");       
+        section1_box.style.setProperty("-webkit-transition","1s all ease");      
+        section1_box.style.setProperty("transition","1s all ease");
     }
     zip.oninput = function () {
         check("zipcode");
